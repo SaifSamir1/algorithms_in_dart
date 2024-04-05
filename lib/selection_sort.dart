@@ -19,3 +19,12 @@ void selectionSort(List<int> list) {
     }
   }
 }
+void main() {
+  var numbers = [64, 34, 25, 12, 22, 11, 90];
+  print("Original list: $numbers");
+
+  selectionSort(numbers);
+
+  print("Sorted list: $numbers");
+
+}
